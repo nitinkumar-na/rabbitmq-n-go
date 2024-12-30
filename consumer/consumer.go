@@ -44,6 +44,4 @@ func ListenToMessages() {
 			log.Printf("Received a message: %s", d.Body)
 		}
 	}()
-
-	log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
 }
