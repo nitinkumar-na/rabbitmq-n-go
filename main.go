@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	consumer.TestConsumer()
-	producer.TestProducer()
+	producer.PublishMessage()
+	consumer.ListenToMessages()
 }
