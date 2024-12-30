@@ -3,7 +3,7 @@ package producer
 import (
 	"context"
 	"fmt"
-	"github.com/nitinkumar-na/rabbitmq-with-go/helper"
+	"github.com/nitinkumar-na/rabbitmq-n-go/helper"
 	"github.com/rabbitmq/amqp091-go"
 	"log"
 	"time"

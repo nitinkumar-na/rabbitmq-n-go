@@ -1,4 +1,4 @@
-module github.com/nitinkumar-na/rabbitmq-with-go
+module github.com/nitinkumar-na/rabbitmq-n-go
 
 go 1.23
 
