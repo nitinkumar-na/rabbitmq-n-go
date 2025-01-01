@@ -45,3 +45,7 @@ func ListenToMessages() {
 		}
 	}()
 }
+
+func StartConsumer() {
+
+}
