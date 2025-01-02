@@ -68,3 +68,5 @@ func startPublisher() Publisher {
 
 	return Publisher{conn, ch, queue}
 }
+
+// Test commit sign 2
