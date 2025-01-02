@@ -17,12 +17,6 @@ type Publisher struct {
 
 func PublishMessage(message string) {
 
-	// validate user input
-	if helper.IsBlank(message) {
-		log.Printf("Message can't be blank")
-		return
-	}
-
 	// start the publisher
 	publisher := startPublisher()
 
