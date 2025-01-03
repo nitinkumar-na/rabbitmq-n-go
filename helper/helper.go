@@ -70,3 +70,5 @@ func ConsumerMessages(client *RabbitMqConn) <-chan amqp.Delivery {
 
 	return msgs
 }
+
+// Test GoLand
